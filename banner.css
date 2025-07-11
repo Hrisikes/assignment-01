@@ -15,7 +15,8 @@ font-family: "Inter", sans-serif;
   color:black ;
   font-style: normal;
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-left: 50px;
 }
 .hero-container img {
     width: 100%;
@@ -37,4 +38,7 @@ main {
     color: white;
     cursor: pointer;
     border:none;
+}
+.hero-container button:hover{
+    background-color: aqua;
 }

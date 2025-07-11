@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   height: 80vh;
+   height: 100vh;
 }
 .inter-normal{
   font-family: "Inter", sans-serif;
@@ -12,7 +12,11 @@ header{
   color:blue ;
   font-style: normal;
   width: 99px;
-  height: 51px;
+  height: 60px;
+  cursor: pointer;
+}
+.inter-normal a{
+  text-decoration: none;
 }
 nav{
     display: flex;
@@ -34,12 +38,13 @@ list-style: none;
 .abc{
   
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight:800;
   font-style: normal;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 100px;
-  margin-left: 500px;
+  margin-left: 460px;
+  font-size: 25px;
+  align-items: center;
 }
 .xyz{
   margin:0 200px 0px 0px
@@ -51,7 +56,8 @@ list-style: none;
   padding: 5px 10px;
   cursor: pointer;
   border: none;
-  margin: 0 85px;
+  margin-left: 17%;
+  
 }
 .efg{
   font-family: "Inter", sans-serif;
@@ -61,4 +67,10 @@ list-style: none;
 }
 .para{
   font-weight: 200;
+}
+.focus-btn:hover{
+  background-color: aqua;
+}
+.btn-primary:hover{
+  background-color: aqua;
 }
