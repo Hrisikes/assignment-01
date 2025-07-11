@@ -1,7 +1,7 @@
 .productive-container{
     background-color: #eaf0ff;
    text-align: center;
-   padding: 40px 20px;
+   padding: 40px 30px;
    border-radius: 10px;
    width:95%;
    max-width: 950px;
@@ -18,7 +18,7 @@ font-family: "Raleway", sans-serif;}
     .box{
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 100px;
         flex-wrap: wrap;
     }
     .box-items{
@@ -27,7 +27,7 @@ font-family: "Raleway", sans-serif;}
         align-items: center;
     }
     .box-items .value{
-        font-size: 32px;
+        font-size: 52px;
         font-weight: bold;
         color: hsl(244, 96%, 53%);
     }
