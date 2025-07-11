@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   height: 95vh;
+   height: 70vh;
 }
 .inter-normal{
   font-family: "Inter", sans-serif;
@@ -32,11 +32,14 @@ list-style: none;
   border: none;
 }
 .abc{
-  margin: 150px 100px 100px 500px;
+  
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight:800;
   font-style: normal;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 500px;
 }
 .xyz{
   margin:0 200px 0px 0px
